@@ -31,13 +31,13 @@ To get started with the project, follow these steps:
 
 2. **Install dependencies for both frontend and backend:**
 
-  ```bash
+   ```bash
    cd client
     npm install
 
     cd ../server
     npm install
-  ```
+   ```
 
 4. **Configure environment variables:**
 
