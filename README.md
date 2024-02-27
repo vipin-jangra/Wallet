@@ -37,7 +37,7 @@ To get started with the project, follow these steps:
 
     cd ../server
     npm install
-    ```
+  ```
 
 4. **Configure environment variables:**
 
