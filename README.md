@@ -30,14 +30,16 @@ To get started with the project, follow these steps:
     ```
 
 2. **Install dependencies for both frontend and backend:**
-    cd client
+
+  ```bash
+   cd client
     npm install
 
     cd ../server
     npm install
     ```
 
-3. **Configure environment variables:**
+4. **Configure environment variables:**
 
 Rename .env.example to .env in the backend directory.
 Set up environment variables such as database connection string, JWT secret, etc.
@@ -85,4 +87,9 @@ Set up environment variables such as database connection string, JWT secret, etc
   - Request Body: `{ "amount": 50, "recipient": "recipient_username" }`
   - Response: `{ "message": "Funds transferred successfully" }`
 
+
+
+
+
+https://github.com/vipin-jangra/Wallet/assets/45737214/c4f08107-8aae-4931-a392-d73ee9afc863
 
