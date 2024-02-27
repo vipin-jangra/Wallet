@@ -1,0 +1,124 @@
+.dash-main{
+    margin: 0;
+    padding: 0;
+   position: relative;
+    width: auto;
+    height: 100%;
+}
+.dash-avatar{
+    padding: 30px;
+    width: 10%;
+    float: left;
+    
+}
+.profile-details{
+    background-color: #777;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    float: right;
+    width: 100%;
+    height: 100%;
+    color: white;
+    
+}
+.allDetails{
+    float: left;
+    padding: 5px;
+    width:100%;
+    font-family:monospace;
+    font-weight: bolder;
+    text-align: justify;
+    font-size:30px;
+    line-height: 50px;
+    color:	white;
+}
+.dash-header{
+    margin: 10px;
+    height: 35vh;
+    background-color:white;
+}
+.dash-table{
+    
+    overflow-y: scroll;
+    background-color:white;
+    margin: 10px;
+    
+}
+.imagecard-dash {
+    float: left;
+    width: 20%;
+    max-height: 40%;
+    position: relative;
+    margin: 0px;
+    height: 50vh;
+   padding: auto;
+   
+  }
+  .course-dash{ 
+    display: flex;
+    width: auto;
+    float:right;
+    height: 35vh;
+    object-fit: cover;
+    transition: all 0.2s linear;
+  }
+
+.table-div {
+    position: relative; 
+}
+ 
+table {
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    overflow-y:scroll ;
+    right: -25px;
+}
+ 
+th {
+    padding: 10px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: black;
+    color: white;
+}
+ 
+td {
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.noCourses{
+    margin-top: 180px;
+    justify-content: center;
+    color: grey;
+}
+
+.dash-button {
+    
+    background-color: #1f98f4;
+    border: none;
+    color: white;
+    padding:5px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    font-size: 16px;
+    cursor: pointer;
+    width:220px;
+  }
+  .dash-button-completed{
+    width:220px;
+    background-color:green;
+    border: none;
+    color: white;
+    padding:5px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    font-size: 16px;
+    cursor: not-allowed;
+  }
+
