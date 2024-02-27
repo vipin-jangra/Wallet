@@ -1,4 +1,4 @@
-# Wallet Project
+# Wallet
 
 This project is a simple wallet application that allows users to manage their funds by depositing, withdrawing, and transferring money to other accounts.
 
