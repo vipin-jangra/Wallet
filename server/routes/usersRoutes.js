@@ -66,10 +66,10 @@ router.post("/login",async (req,res)=> {
 })
 
 //get user info
-router.post("/get-user-info", async (req,res) =>{
+router.post("/get-user-info",authmiddleware, async (req,res) =>{
     try{
-        const user = await User.findById(req.body.user_id)
-
+        const user = await User.findById(req.body.userId);
+        
         res.send({
             message: "User info fetched successfully",
             data: user,

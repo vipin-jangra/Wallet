@@ -19,9 +19,9 @@ export const RegisterUser = async (payload) =>{
     }
 }
 
-export const GetUserInfo = async(payload) =>{
+export const GetUserInfo = async() =>{
     try{
-        const {data} = await axios.post('http://localhost:3000/api/users/get-user-info',payload)
+        const {data} = await axios.post('http://localhost:3000/api/users/get-user-info')
         return data
     } catch(error){
         return error.response.data
